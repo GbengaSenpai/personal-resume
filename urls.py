@@ -6,6 +6,6 @@ urlpatterns = [
 ]
 from django.shortcuts import render
 def home_view(request):
-    print(request.GET)
+    print(request.POST)
     return render(request, "index.htm")
     
